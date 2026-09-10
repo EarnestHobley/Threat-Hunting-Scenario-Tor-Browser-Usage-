@@ -56,7 +56,7 @@ DeviceProcessEvents
 | where ProcessCommandLine contains "tor-browser-windows-x86_64-portable-14.0.1.exe"  
 | project Timestamp, DeviceName, AccountName, ActionType, FileName, FolderPath, SHA256, ProcessCommandLine
 ```
-<img width="1212" alt="image" src="https://github.com/user-attachments/assets/b07ac4b4-9cb3-4834-8fac-9f5f29709d78">
+<img width="1441" height="234" alt="kql2" src="https://github.com/user-attachments/assets/bc798f1e-1692-4048-b070-2325a3a30af7">
 
 ---
 
